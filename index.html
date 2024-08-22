@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Розыгрыш ключа Steam</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Розыгрыш ключа Steam</h1>
+        <p>Примите участие в нашем розыгрыше и получите шанс выиграть ключ Steam!</p>
+        
+        <form id="entryForm">
+            <label for="name">Ваше имя:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Ваш email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <button type="submit">Участвовать</button>
+        </form>
+        
+        <div id="result" class="hidden">
+            <p>Спасибо за участие! Результаты будут объявлены позже.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
